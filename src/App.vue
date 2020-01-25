@@ -1,7 +1,7 @@
 
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
      <h1>JSON Formatter</h1>
     <HelloWorld msg="JSON Formatter"/>
     
