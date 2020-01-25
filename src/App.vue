@@ -8,7 +8,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import constants from './common/service-constants'
+
 export default {
   name: 'app',
   components: {
