@@ -3,18 +3,20 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
      <h1>JSON Formatter</h1>
-    <HelloWorld msg="JSON Formatter"/>
-    
+    <Header msg="JSON Formatter"/>
+    <Table msg="JSON Formatter"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Table from './components/Table.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+  Header,
+  Table
   }
 }
 </script>
